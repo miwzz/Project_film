@@ -2,11 +2,11 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\KategoriController;
-use App\Http\Controllers\Api\AktorController;
-use App\Http\Controllers\Api\GenreController;
-use App\Http\Controllers\Api\LoginController;
-use App\Http\Controllers\Api\FilmController;
+use App\Http\Controllers\API\KategoriController;
+use App\Http\Controllers\API\AktorController;
+use App\Http\Controllers\API\GenreController;
+use App\Http\Controllers\API\LoginController;
+use App\Http\Controllers\API\FilmController;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
