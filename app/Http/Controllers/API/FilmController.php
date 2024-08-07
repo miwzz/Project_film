@@ -26,8 +26,8 @@ class FilmController extends Controller
             'foto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'url_video' => 'required|string',
             'id_kategori' => 'required',
-            'genre' => 'required|array',
-            'aktor' => 'required|array',
+            'genre' => 'required',
+            'aktor' => 'required',
         ]);
 
         if ($validator->fails()) {
