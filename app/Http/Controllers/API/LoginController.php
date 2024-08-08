@@ -43,7 +43,7 @@ class LoginController extends Controller
         return response()->json([
             'status' => true,
             'message' => 'logout success',
-        ], 201);
+        ], 200);
     }
     public function register(Request $request)
     {
